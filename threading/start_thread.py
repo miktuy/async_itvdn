@@ -12,9 +12,9 @@ file_handler.setFormatter(std_format)
 
 
 def handler(started=0, finished=0):
-    result = 0;
+    result = 0
     for i in range(started, finished):
-        result += i;
+        result += i
     print(f'Value: {result}')
 
 
